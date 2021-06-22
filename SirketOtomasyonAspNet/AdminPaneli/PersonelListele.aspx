@@ -57,8 +57,8 @@
                             <td><%# Eval("Email") %></td>
                             <td><%# Eval("Aciklama") %></td>
                             <td><%# Eval("GirisTarih") %></td>
-                                <td><a href="/AdminPaneli/PersonelSil.aspx?gelenid=<%# Eval("ID") %> class="badge badge-danger">Sil</a></td>
-                                <td><a href="/AdminPaneli/PersonelGuncelle.aspx?gelenid=<%# Eval("ID") %> class="badge badge-success">Güncelle</a></td>
+                                <td><a href="/AdminPaneli/PersonelSil.aspx?gelenid=<%# Eval("ID") %>"  class="badge badge-danger">Sil</a></td>
+                                <td><a href="/AdminPaneli/PersonelGuncelle.aspx?gelenid=<%# Eval("ID") %>" class="badge badge-success">Güncelle</a></td>
                                 <td><a href="/AdminPaneli/PersonelDetay.aspx?gelenid=<%# Eval("ID") %>" class="badge badge-secondary">Detay</a></td>
                             </tr>
                                         </tbody>
@@ -121,6 +121,6 @@
 
     </style>
       
-          </section>
+          
       
           </asp:Content>
